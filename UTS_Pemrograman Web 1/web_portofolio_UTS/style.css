@@ -1,0 +1,91 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5; /* Warna latar belakang */
+  color: #333; /* Warna teks utama */
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4285f4; /* Warna latar belakang header */
+  color: #fff; /* Warna teks header */
+}
+
+/* Navigation styling */
+nav {
+  background-color: #333; /* Warna latar belakang navigasi */
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* Warna teks link navigasi */
+  padding: 10px 15px;
+  display: block;
+}
+
+/* Section styling */
+section {
+  padding: 40px;
+  margin: 20px 0;
+  background-color: #fff; /* Warna latar belakang section */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography styling */
+h1, h2, h3, h4, h5, h6 {
+  color: #333; /* Warna teks heading */
+}
+
+p {
+  line-height: 1.5;
+  color: #555; /* Warna teks paragraf */
+}
+
+/* Link styling */
+a {
+  color: #4285f4; /* Warna teks link */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button styling */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285f4; /* Warna latar belakang tombol */
+  color: #fff; /* Warna teks tombol */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3367d6; /* Warna latar belakang tombol saat dihover */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333; /* Warna latar belakang footer */
+  color: #f5f5f5; /* Warna teks footer */
+}
